@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@remirror/core": "^0.0.1-alpha.9",
+    "@remirror/core": "0.0.1-alpha.10",
     "@weco/next-plugin-transpile-modules": "2.2.0",
     "@zeit/next-typescript": "^1.1.1",
     "next": "^8.0.3",

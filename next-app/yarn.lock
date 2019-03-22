@@ -692,6 +692,14 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.12.0"
 
+"@babel/runtime-corejs2@>=7":
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs2/-/runtime-corejs2-7.4.2.tgz#a0cec2c41717fa415e9c204f32b603d88b1796c2"
+  integrity sha512-y/Br/9uQnumcqcakkmobFqOTzYCWSS6Kuy1b2o7LTXR4lpeU0AhaOcPqIHW85LCxRWUDW5Vg0pU1KlE3YkORlg==
+  dependencies:
+    core-js "^2.6.5"
+    regenerator-runtime "^0.13.2"
+
 "@babel/runtime@7.1.2":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.1.2.tgz#81c89935f4647706fc54541145e6b4ecfef4b8e3"
@@ -826,7 +834,40 @@
     "@types/prosemirror-history" "^1.0.1"
     prosemirror-history "^1.0.4"
 
-"@remirror/core@0.0.1-alpha.9", "@remirror/core@^0.0.1-alpha.9":
+"@remirror/core@0.0.1-alpha.10":
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/@remirror/core/-/core-0.0.1-alpha.10.tgz#dbeabdd56a59ff1e02126ce3fa8ae10b3e170228"
+  integrity sha512-mX0Csq7u5howJmOiehy+cnBaSJ1N3GJsgj8cDZbPDdRhhz7fgtVQW4e7QE3vch6xWKpz44o4ysZi5GNUN9M2Bg==
+  dependencies:
+    "@babel/runtime-corejs2" ">=7"
+    "@emotion/core" "^10.0.9"
+    "@types/memoize-one" "4.1.1"
+    "@types/nanoevents" "1.0.0"
+    "@types/nanoid" "1.2.1"
+    "@types/node" "^11.11.5"
+    "@types/prosemirror-commands" "^1.0.1"
+    "@types/prosemirror-inputrules" "^1.0.2"
+    "@types/prosemirror-keymap" "^1.0.1"
+    "@types/prosemirror-model" "^1.7.0"
+    "@types/prosemirror-schema-list" "^1.0.1"
+    "@types/prosemirror-state" "^1.2.3"
+    "@types/prosemirror-transform" "^1.1.0"
+    emotion "^10.0.9"
+    memoize-one "5.0.0"
+    nanoevents "1.0.8"
+    nanoid "2.0.1"
+    object.omit "3.0.0"
+    object.pick "1.3.0"
+    prosemirror-commands "^1.0.7"
+    prosemirror-inputrules "^1.0.1"
+    prosemirror-keymap "^1.0.1"
+    prosemirror-model "^1.7.0"
+    prosemirror-schema-list "^1.0.2"
+    prosemirror-state "^1.2.2"
+    prosemirror-transform "^1.1.3"
+    prosemirror-view "^1.8.4"
+
+"@remirror/core@0.0.1-alpha.9":
   version "0.0.1-alpha.9"
   resolved "https://registry.yarnpkg.com/@remirror/core/-/core-0.0.1-alpha.9.tgz#c4f7311fbff96d45f74ccea8d472cf4bf3b6c0b5"
   integrity sha512-uJd+hHKegWOYn/UKFkIWSBJkMafCDJB70b4cVjR6XrIPVOw/zlAFsEvCeglOOFRcmvH2KlUugE8TNJth2vDzbg==
@@ -914,7 +955,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^11.11.4":
+"@types/node@*", "@types/node@^11.11.4", "@types/node@^11.11.5":
   version "11.11.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.11.5.tgz#0c57e12eb44d44e5b6735593925286553ee7cebf"
   integrity sha512-pz6wNe/XwyesgfVX7P6B0hY3TnTAYXk6KSTLdpQfbuq3be+hnMoCuFzE+yLTskPdBwmNiGRL2TAsnF09aRugvQ==
@@ -1856,7 +1897,7 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-js@^2.4.0, core-js@^2.5.7:
+core-js@^2.4.0, core-js@^2.5.7, core-js@^2.6.5:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
   integrity sha512-klh/kDpwX8hryYL14M9w/xei6vrv6sE8gTHDG7/T/+SEovB/G4ejwcfE/CBzO6Edsu+OETZMZ3wcX/EjUkrl5A==
@@ -4164,6 +4205,11 @@ regenerator-runtime@^0.12.0:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
   integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
+
+regenerator-runtime@^0.13.2:
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.2.tgz#32e59c9a6fb9b1a4aff09b4930ca2d4477343447"
+  integrity sha512-S/TQAZJO+D3m9xeN1WTI8dLKBBiRgXBlTJvbWjCThHWZj9EvHK70Ff50/tYj2J/fvBY6JtFVwRuazHN2E7M9BA==
 
 regenerator-transform@^0.13.4:
   version "0.13.4"
