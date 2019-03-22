@@ -1,6 +1,9 @@
 // see: https://github.com/zeit/next-plugins/tree/master/packages/next-typescript
 // next.config.js
+const withTM = require("@weco/next-plugin-transpile-modules");
+
 const webpack = (config, { dev, isServer, defaultLoaders }) => {
+  /*
   config.module.rules.push({
     test: /\.js$/,
     include: /node_modules\/some-es6-package/,
@@ -26,9 +29,12 @@ const webpack = (config, { dev, isServer, defaultLoaders }) => {
       }
     ]
   });
+  */
 
   return config;
 };
 
 const withTypescript = require("@zeit/next-typescript");
-module.exports = withTypescript({ webpack });
+module.exports = withTypescript(
+  withTM({ webpack, transpileModules: ["some-es6-package"] })
+);
