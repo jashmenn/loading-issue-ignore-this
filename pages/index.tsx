@@ -1,4 +1,5 @@
-import { NodeExtension } from "@remirror/core"; // loads two different modules
+// import { NodeExtension } from "@remirror/core"; // loads two different modules
+import { NodeExtension } from "remirror"; // loads two different modules
 
 class TitlePlaceholder extends NodeExtension {}
 

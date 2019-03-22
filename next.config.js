@@ -2,10 +2,8 @@
 // next.config.js
 
 const webpack = (config, { dev, isServer }) => {
-  console.log("config: ", config);
-
   config.module.rules.push({
-    test: /\.esm.js$/,
+    test: /\.js$/,
     include: /node_modules\/@remirror/,
     use: {
       loader: "babel-loader",
@@ -25,8 +23,6 @@ const webpack = (config, { dev, isServer }) => {
       }
     }
   });
-
-  console.log("config.module.rules: ", config.module.rules);
 
   return config;
 };
