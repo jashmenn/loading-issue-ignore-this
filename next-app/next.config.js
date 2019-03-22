@@ -36,5 +36,8 @@ const webpack = (config, { dev, isServer, defaultLoaders }) => {
 
 const withTypescript = require("@zeit/next-typescript");
 module.exports = withTypescript(
-  withTM({ webpack, transpileModules: ["some-es6-package"] })
+  withTM({
+    webpack,
+    transpileModules: ["some-es6-package", "remirror", "@remirror/core"]
+  })
 );
