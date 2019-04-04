@@ -760,9 +760,9 @@
     "@emotion/weak-memoize" "0.2.2"
 
 "@emotion/core@^10.0.9":
-  version "10.0.9"
-  resolved "https://registry.yarnpkg.com/@emotion/core/-/core-10.0.9.tgz#f8afbccb0011100680f5dc94657b410c6aa1350e"
-  integrity sha512-v5a77dV+uWGoy9w6R3MXZG01lqHcXgoy/jGmJqPDGhPjmpWg26LWXAphYZxpZffFUwDUlDdYDiX5HtaKphvJnQ==
+  version "10.0.10"
+  resolved "https://registry.yarnpkg.com/@emotion/core/-/core-10.0.10.tgz#8d3114e5a2f8b178a7067c603a2937516f180b08"
+  integrity sha512-U1aE2cOWUscjc8ZJ3Cx32udOzLeRoJwGxBH93xQD850oQFpwPKZARzdUtdc9SByUOwzSFYxhDhrpXnV34FJmWg==
   dependencies:
     "@emotion/cache" "^10.0.9"
     "@emotion/css" "^10.0.9"
@@ -825,12 +825,12 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.2.tgz#63985d3d8b02530e0869962f4da09142ee8e200e"
   integrity sha512-n/VQ4mbfr81aqkx/XmVicOLjviMuy02eenSdJY33SVA7S2J42EU0P1H0mOogfYedb3wXA0d/LVtBrgTSm04WEA==
 
-"@remirror/core-extensions@0.0.1-alpha.9":
-  version "0.0.1-alpha.9"
-  resolved "https://registry.yarnpkg.com/@remirror/core-extensions/-/core-extensions-0.0.1-alpha.9.tgz#05b081c10511c48ff72871fa725936d6fb5f7ec1"
-  integrity sha512-nixD92YFxvQ1i8PPeGBfP3kohqEsyxigKUxhvgscnIT7QXRok/eq9ci2rc0HOMXyKhcrlkYlnqcuW/Iy4qpflg==
+"@remirror/core-extensions@0.0.1-alpha.10":
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/@remirror/core-extensions/-/core-extensions-0.0.1-alpha.10.tgz#3efad8c7040202379ef6888381bd4ad1f2a9ab31"
+  integrity sha512-mglYV+EMOHsaV6ltWl076QcnBR+mJ6X9KjIMbMVR0G9iRdNtO205U/XLBLS31TlNBwmOA/vUSGW/7okizm4W7Q==
   dependencies:
-    "@remirror/core" "0.0.1-alpha.9"
+    "@remirror/core" "0.0.1-alpha.10"
     "@types/prosemirror-history" "^1.0.1"
     prosemirror-history "^1.0.4"
 
@@ -867,56 +867,24 @@
     prosemirror-transform "^1.1.3"
     prosemirror-view "^1.8.4"
 
-"@remirror/core@0.0.1-alpha.9":
-  version "0.0.1-alpha.9"
-  resolved "https://registry.yarnpkg.com/@remirror/core/-/core-0.0.1-alpha.9.tgz#c4f7311fbff96d45f74ccea8d472cf4bf3b6c0b5"
-  integrity sha512-uJd+hHKegWOYn/UKFkIWSBJkMafCDJB70b4cVjR6XrIPVOw/zlAFsEvCeglOOFRcmvH2KlUugE8TNJth2vDzbg==
+"@remirror/react-ssr@0.0.1-alpha.10":
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/@remirror/react-ssr/-/react-ssr-0.0.1-alpha.10.tgz#4739bf1d01fca4c68fbb9d6997d6e424705a6c6c"
+  integrity sha512-5ErqA3xRfDbLpiocq+uMQawGEddJtF0nVLZo9Dm9ihlosCotEP6Slf21ULUOkpA7C6RLsfCXHPfUpfiDrVkSMQ==
   dependencies:
-    "@emotion/core" "^10.0.9"
-    "@types/memoize-one" "4.1.1"
-    "@types/nanoevents" "1.0.0"
-    "@types/nanoid" "1.2.1"
-    "@types/node" "^11.11.4"
-    "@types/prosemirror-commands" "^1.0.1"
-    "@types/prosemirror-inputrules" "^1.0.2"
-    "@types/prosemirror-keymap" "^1.0.1"
-    "@types/prosemirror-model" "^1.7.0"
-    "@types/prosemirror-schema-list" "^1.0.1"
-    "@types/prosemirror-state" "^1.2.3"
-    "@types/prosemirror-transform" "^1.1.0"
-    emotion "^10.0.9"
-    memoize-one "5.0.0"
-    nanoevents "1.0.8"
-    nanoid "2.0.1"
-    object.omit "3.0.0"
-    object.pick "1.3.0"
-    prosemirror-commands "^1.0.7"
-    prosemirror-inputrules "^1.0.1"
-    prosemirror-keymap "^1.0.1"
-    prosemirror-model "^1.7.0"
-    prosemirror-schema-list "^1.0.2"
-    prosemirror-state "^1.2.2"
-    prosemirror-transform "^1.1.3"
-    prosemirror-view "^1.8.4"
-
-"@remirror/react-ssr@0.0.1-alpha.9":
-  version "0.0.1-alpha.9"
-  resolved "https://registry.yarnpkg.com/@remirror/react-ssr/-/react-ssr-0.0.1-alpha.9.tgz#5be67ea113378d4b3fdc46dcd62a22ab21973c85"
-  integrity sha512-LC63/4KTcnna7/SER6IiMgbIyKOfpkWjvvzTX1ZcTVAGD9ooPa9XRjxpt3K9iKZi+K8Z4pKmfm92t6Q0GFOfCQ==
-  dependencies:
-    "@remirror/core" "0.0.1-alpha.9"
-    "@remirror/renderer-react" "0.0.1-alpha.9"
+    "@remirror/core" "0.0.1-alpha.10"
+    "@remirror/renderer-react" "0.0.1-alpha.10"
     min-document "^2.19.0"
 
-"@remirror/react@0.0.1-alpha.9":
-  version "0.0.1-alpha.9"
-  resolved "https://registry.yarnpkg.com/@remirror/react/-/react-0.0.1-alpha.9.tgz#27cda39a3730a442102b581ef37e5c10e2354cf9"
-  integrity sha512-k17u/wOgtAUPTLURhzBgt0LNWnLZP0tlmkaJ5pdu1+8yXs2msaWc60c36BOoGCBxDZsIEp/StxvO4sAhYvus4w==
+"@remirror/react@0.0.1-alpha.10":
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/@remirror/react/-/react-0.0.1-alpha.10.tgz#89d38a085d61faa2c65fc1b8532040ee339817b0"
+  integrity sha512-XA5nxxczj0gaFAl8OQeQ0saupRgMPvUgYZp5tl02c9isduv6+CI3dlkBmk8hWLLy5+pMufryiU8LkbybuoWyJQ==
   dependencies:
-    "@remirror/core" "0.0.1-alpha.9"
-    "@remirror/core-extensions" "0.0.1-alpha.9"
-    "@remirror/react-ssr" "0.0.1-alpha.9"
-    "@remirror/renderer-react" "0.0.1-alpha.9"
+    "@remirror/core" "0.0.1-alpha.10"
+    "@remirror/core-extensions" "0.0.1-alpha.10"
+    "@remirror/react-ssr" "0.0.1-alpha.10"
+    "@remirror/renderer-react" "0.0.1-alpha.10"
     "@types/hoist-non-react-statics" "^3.3.0"
     "@types/prosemirror-keymap" "^1.0.1"
     "@types/prosemirror-view" "^1.3.1"
@@ -924,12 +892,12 @@
     prosemirror-keymap "^1.0.1"
     prosemirror-view "^1.8.4"
 
-"@remirror/renderer-react@0.0.1-alpha.9":
-  version "0.0.1-alpha.9"
-  resolved "https://registry.yarnpkg.com/@remirror/renderer-react/-/renderer-react-0.0.1-alpha.9.tgz#7e4bc8189b06951cb7c45cb4bb8766ed6076824e"
-  integrity sha512-Vonjmua66D+Qn56dYnJ9As1MBAF2aEBL6I0coOxfmtpNkJKJNswukqhRq7j2cRMRXMsueLGci1jDzykR1NJo0w==
+"@remirror/renderer-react@0.0.1-alpha.10":
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/@remirror/renderer-react/-/renderer-react-0.0.1-alpha.10.tgz#5fe05547d8e989228d24f69bf3fd90a0014ea1a6"
+  integrity sha512-cR52sPhyvELAU/wj83bfXeeIiwMuiQOi9QewfiZeip4greDiDP888cr9e+NPWSDaB8unhLah9pt0p5KSaI8Apw==
   dependencies:
-    "@remirror/core" "0.0.1-alpha.9"
+    "@remirror/core" "0.0.1-alpha.10"
 
 "@types/hoist-non-react-statics@^3.3.0":
   version "3.3.0"
@@ -955,10 +923,15 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^11.11.4", "@types/node@^11.11.5":
+"@types/node@*":
   version "11.11.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.11.5.tgz#0c57e12eb44d44e5b6735593925286553ee7cebf"
   integrity sha512-pz6wNe/XwyesgfVX7P6B0hY3TnTAYXk6KSTLdpQfbuq3be+hnMoCuFzE+yLTskPdBwmNiGRL2TAsnF09aRugvQ==
+
+"@types/node@^11.11.5":
+  version "11.13.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.0.tgz#b0df8d6ef9b5001b2be3a94d909ce3c29a80f9e1"
+  integrity sha512-rx29MMkRdVmzunmiA4lzBYJNnXsW/PhG4kMBy2ATsYaDjGGR75dCFEVVROKpNwlVdcUX3xxlghKQOeDPBJobng==
 
 "@types/orderedmap@*":
   version "1.0.0"
@@ -4250,15 +4223,15 @@ regjsparser@^0.6.0:
   dependencies:
     jsesc "~0.5.0"
 
-remirror@^0.0.1-alpha.9:
-  version "0.0.1-alpha.9"
-  resolved "https://registry.yarnpkg.com/remirror/-/remirror-0.0.1-alpha.9.tgz#eeaf6fc30e85795bb7e3ab30be877b9945d19c2a"
-  integrity sha512-EYxKjhzCNAd1vGvlKZeyGszuxU6EbSBOa6e4L3MxJJINGNCttgHy1c5E/E3ZLzsQ/t5+aHl897TE2gRe184Smg==
+remirror@0.0.1-alpha.10:
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/remirror/-/remirror-0.0.1-alpha.10.tgz#06a01b7ca929c92f5039b982755d3fe15b455b72"
+  integrity sha512-VWGfb0r/RN1/tRF5h+S0u/gUBUbaRAAU+VgR7Dl7f4MIfs7Q3A2u2SEusCnmZEY1QbAX97YNjINkoLgawPLtRQ==
   dependencies:
-    "@remirror/core" "0.0.1-alpha.9"
-    "@remirror/core-extensions" "0.0.1-alpha.9"
-    "@remirror/react" "0.0.1-alpha.9"
-    "@remirror/renderer-react" "0.0.1-alpha.9"
+    "@remirror/core" "0.0.1-alpha.10"
+    "@remirror/core-extensions" "0.0.1-alpha.10"
+    "@remirror/react" "0.0.1-alpha.10"
+    "@remirror/renderer-react" "0.0.1-alpha.10"
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
