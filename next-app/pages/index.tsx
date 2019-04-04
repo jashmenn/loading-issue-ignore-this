@@ -1,4 +1,4 @@
-import { DocumentModelEditor } from "./document-model";
+import { DocumentModelEditor } from "../components/document-model";
 
 const Index = () => (
   <div>

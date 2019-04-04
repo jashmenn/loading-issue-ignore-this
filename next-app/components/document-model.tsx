@@ -12,8 +12,16 @@ import {
 } from "@remirror/react";
 import { RenderTree } from "@remirror/renderer-react";
 
+// added this
+import { ReactTestNode } from "./react-test-node";
+
 const EditorLayout: FunctionComponent = () => {
-  const extensions = [new Bold(), new Italic(), new Underline()];
+  const extensions = [
+    new Bold(),
+    new Italic(),
+    new Underline(),
+    new ReactTestNode() // added this
+  ];
   const [json, setJson] = useState(JSON.stringify(initialJson, null, 2));
 
   const onChange: RemirrorEventListener = ({ getJSON }) => {
@@ -138,6 +146,9 @@ const initialJson = {
           text: "Better docs to come soon..."
         }
       ]
+    },
+    {
+      type: "reactTest" // added this
     },
     {
       type: "paragraph"
